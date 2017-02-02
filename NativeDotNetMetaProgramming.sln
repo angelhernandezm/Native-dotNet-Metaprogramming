@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managed", "Managed", "{CE1544B3-B353-45EF-8E6F-54E220C1BF73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{8C1CD63B-E1B6-48AF-BCA8-F533E35B498D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metadata.Core", "Managed\Metadata.Core\Metadata.Core.csproj", "{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{115A3F22-3B71-4E4C-979C-5A915F356874} = {115A3F22-3B71-4E4C-979C-5A915F356874}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "Managed\TestHarness\TestHarness.csproj", "{C3192284-674D-480A-A55A-73CD4CA4C12C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{115A3F22-3B71-4E4C-979C-5A915F356874} = {115A3F22-3B71-4E4C-979C-5A915F356874}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPUProcessor", "Native\GPUProcessor\GPUProcessor.vcxproj", "{115A3F22-3B71-4E4C-979C-5A915F356874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{2754EEEA-E642-4320-983A-AFECE999B7C4}"
+	ProjectSection(SolutionItems) = preProject
+		Document\Enhancing .NET code via Metaprogramming with Visual C++.docx = Document\Enhancing .NET code via Metaprogramming with Visual C++.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://angeljesus14.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Managed\\Metadata.Core\\Metadata.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = NativeDotNetMetaProgramming.sln
+		SccProjectName1 = Managed/Metadata.Core
+		SccLocalPath1 = Managed\\Metadata.Core
+		SccProjectUniqueName2 = Managed\\TestHarness\\TestHarness.csproj
+		SccProjectTopLevelParentUniqueName2 = NativeDotNetMetaProgramming.sln
+		SccProjectName2 = Managed/TestHarness
+		SccLocalPath2 = Managed\\TestHarness
+		SccProjectUniqueName3 = Native\\GPUProcessor\\GPUProcessor.vcxproj
+		SccProjectTopLevelParentUniqueName3 = NativeDotNetMetaProgramming.sln
+		SccProjectName3 = Native/GPUProcessor
+		SccLocalPath3 = Native\\GPUProcessor
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8}.Release|Win32.ActiveCfg = Release|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C3192284-674D-480A-A55A-73CD4CA4C12C}.Release|Win32.ActiveCfg = Release|Any CPU
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Debug|Win32.ActiveCfg = Debug|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Debug|Win32.Build.0 = Debug|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Release|Any CPU.ActiveCfg = Release|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Release|Win32.ActiveCfg = Release|Win32
+		{115A3F22-3B71-4E4C-979C-5A915F356874}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F0A6E67-AB67-4A79-ADFB-1048BB5B63A8} = {CE1544B3-B353-45EF-8E6F-54E220C1BF73}
+		{C3192284-674D-480A-A55A-73CD4CA4C12C} = {CE1544B3-B353-45EF-8E6F-54E220C1BF73}
+		{115A3F22-3B71-4E4C-979C-5A915F356874} = {8C1CD63B-E1B6-48AF-BCA8-F533E35B498D}
+	EndGlobalSection
+EndGlobal
